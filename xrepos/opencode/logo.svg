@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <title>Logo de OpenCode Repo X</title>
+  
+  <rect x="5" y="5" width="90" height="90" rx="10" ry="10" fill="#0a0a0a" stroke="#69676c" stroke-width="2" />
+  
+  <path d="M10 15 H90 V25 Q90 28 87 28 H13 Q10 28 10 25 Z" fill="#69676c" />
+  <circle cx="18" cy="21" r="2.5" fill="#fc618d" /> 
+  <circle cx="26" cy="21" r="2.5" fill="#fce566" /> 
+  <circle cx="34" cy="21" r="2.5" fill="#7bd88f" /> 
+  
+  <text x="12" y="48" font-family="'Courier New', Courier, monospace" font-size="16" fill="#7bd88f" font-weight="bold">&gt;&gt; </text>
+  <text x="35" y="48" font-family="'Courier New', Courier, monospace" font-size="16" fill="#f7f1ff" font-weight="normal">open</text>
+  <text x="35" y="65" font-family="'Courier New', Courier, monospace" font-size="16" fill="#f7f1ff" font-weight="normal">code</text>
+  
+  <path d="M72 38 L92 58 M92 38 L72 58" stroke="#fc618d" stroke-width="5" stroke-linecap="round" />
+  
+  <line x1="12" y1="78" x2="60" y2="78" stroke="#fd9353" stroke-width="1.5" stroke-linecap="round" />
+  <line x1="12" y1="86" x2="50" y2="86" stroke="#948ae3" stroke-width="1.5" stroke-linecap="round" />
+  
+</svg>
