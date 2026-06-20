@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#89b4fa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#cba6f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f38ba8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Main X shape -->
+  <path d="M40 40 L160 160 M40 160 L160 40" stroke="url(#grad1)" stroke-width="20" stroke-linecap="round"/>
+  <!-- Central detail (dashboard/metrics) -->
+  <circle cx="100" cy="100" r="30" stroke="#cdd6f4" stroke-width="4" fill="none"/>
+  <path d="M100 75 L100 95 M125 100 L105 100" stroke="#cdd6f4" stroke-width="3" stroke-linecap="round"/>
+  <!-- Outer accents -->
+  <rect x="85" y="45" width="30" height="10" rx="2" fill="#cdd6f4"/>
+  <rect x="85" y="145" width="30" height="10" rx="2" fill="#cdd6f4"/>
+</svg>
