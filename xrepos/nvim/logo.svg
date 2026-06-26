@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="nvim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7bd88f"/>
+      <stop offset="100%" stop-color="#5ad4e6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="120" fill="url(#bg)" stroke="#0f0f0f" stroke-width="2"/>
+
+  <!-- Neovim diamond -->
+  <polygon points="128,40 216,128 128,216 40,128" fill="none" stroke="url(#nvim)" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- X mark -->
+  <line x1="88" y1="92" x2="168" y2="164" stroke="#fc618d" stroke-width="8" stroke-linecap="round"/>
+  <line x1="168" y1="92" x2="88" y2="164" stroke="#fc618d" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Small decorative dots at diamond vertices -->
+  <circle cx="128" cy="40" r="4" fill="#fce566"/>
+  <circle cx="216" cy="128" r="4" fill="#5ad4e6"/>
+  <circle cx="128" cy="216" r="4" fill="#fd9353"/>
+  <circle cx="40" cy="128" r="4" fill="#948ae3"/>
+</svg>
